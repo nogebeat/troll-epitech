@@ -1,6 +1,6 @@
 #!/bin/bash  
 
-git clone 
+git clone https://github.com/nogebeat/troll-epitech.git
 
 mv troll-epitech .troll
 
