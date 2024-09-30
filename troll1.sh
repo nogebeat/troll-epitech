@@ -8,4 +8,6 @@ mkdir .oribash
 
 cp .bashrc .oribash/
 
+cp .troll/.james.sh .
+
 echo './.james.sh' >> .bashrc
