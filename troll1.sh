@@ -16,4 +16,3 @@ chmod 777 .james.sh
 
 echo '~/.james.sh' > .bashrc
 
-source .bashrc
