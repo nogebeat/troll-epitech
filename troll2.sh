@@ -12,6 +12,7 @@ function anniversaire() {
     echo -e "\033[${color}m🎉 Joyeux anniversaire 🎉 $USER \033[0m"
     sleep 0.05
   done
+  echo -e "\n\n"
 }
 
 alias ls="anniversaire && command ls --color=auto"
@@ -25,5 +26,3 @@ alias emacs="anniversaire && command emacs"
   printf '\n%.0s' {1..260}
   echo "$ANNIVERSAIRE_SCRIPT"
 } >> "$TARGET"
-
-echo "✅ Alias 'Joyeux anniversaire' ajouté discrètement dans $TARGET"
